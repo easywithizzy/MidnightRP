@@ -61,7 +61,7 @@ Citizen.CreateThread(function()
 						ESX.ShowHelpNotification(_U('prompt_repair'))
 					end
 
-					if IsControlJustReleased(0, Keys['E']) then
+					if IsControlJustReleased(0, 38) then
 						local vehicle = GetVehiclePedIsIn(PlayerPedId(), false)
 
 						if GetVehicleEngineHealth(vehicle) > 2 then
