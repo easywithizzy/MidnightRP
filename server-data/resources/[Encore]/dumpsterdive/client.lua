@@ -37,7 +37,7 @@ Citizen.CreateThread(function()
 
                 if dist < 1.8 then
                     DrawText3Ds(dumpPos.x, dumpPos.y, dumpPos.z + 1.0, 'Press [~g~E~w~] to dumpster dive')
-                    if IsControlJustReleased(0, 51) then
+                    if IsControlJustReleased(0, 38) then
                         for i = 1, #searched do
                             if searched[i] == dumpster then
                                 dumpsterFound = true
