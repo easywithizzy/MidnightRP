@@ -59,7 +59,7 @@ Fwv = function (entity)
       velBuffer[2] = velBuffer[1]
       velBuffer[1] = GetEntityVelocity(car)
         
-      if IsControlJustReleased(0, 29) and GetLastInputMethod(0) then
+      if IsControlJustReleased(0, 46) and GetLastInputMethod(0) then
         beltOn = not beltOn 
         if beltOn then
           Citizen.Wait(100)
