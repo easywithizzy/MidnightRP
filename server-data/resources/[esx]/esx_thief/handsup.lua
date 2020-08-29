@@ -23,7 +23,7 @@ Citizen.CreateThread(function()
 		Citizen.Wait(0)
 
 		if canHandsUp then
-			if IsControlJustReleased(0, Keys['X']) then
+			if IsControlJustReleased(0, 43) then
 				local playerPed = PlayerPedId()
 				DisableControlAction(2, 24, true) -- Attack
 				DisableControlAction(2, 257, true) -- Attack 2
