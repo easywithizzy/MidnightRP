@@ -5,9 +5,9 @@ Config.Locale = 'en'
 Config.EnablePrice = true
 Config.Price = 500
 
-Config.FixCarDamage = true -- Should this repair the cars body aswell? (DO NOT SET THIS TO TRUE IF Config.RealisticVehicleFailure IS TRUE!!!!!)
+Config.FixCarDamage = false -- Should this repair the cars body aswell? (DO NOT SET THIS TO TRUE IF Config.RealisticVehicleFailure IS TRUE!!!!!)
 
-Config.RealisticVehicleFailure = false -- Set to true if you are using RealisticCarFailure (MAKE SURE Config.FixCarDamage is FALSE )
+Config.RealisticVehicleFailure = true -- Set to true if you are using RealisticCarFailure (MAKE SURE Config.FixCarDamage is FALSE )
 
 
 -- Add more loactions here
