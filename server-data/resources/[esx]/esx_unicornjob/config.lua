@@ -5,7 +5,7 @@ Config.EnablePlayerManagement = true
 Config.EnableSocietyOwnedVehicles = false
 Config.EnableVaultManagement = true
 Config.EnableHelicopters = false
-Config.EnableMoneyWash = false
+Config.EnableMoneyWash = true
 Config.MaxInService = -1
 Config.Locale = 'en'
 
