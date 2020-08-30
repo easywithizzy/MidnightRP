@@ -90,12 +90,12 @@ CREATE TABLE `vehicles` (
 );
 
 INSERT INTO `vehicles` (name, model, price, category) VALUES
-	('Blade','blade',15000,'muscle'),
-	('Buccaneer','buccaneer',18000,'muscle'),
-	('Buccaneer Rider','buccaneer2',24000,'muscle'),
-	('Chino','chino',15000,'muscle'),
-	('Chino Luxe','chino2',19000,'muscle'),
-	('Coquette BlackFin','coquette3',55000,'muscle'),
+	('Chevelle','chevelle1970',15000,'muscle'),
+	('Hellcat','hellcatlb',18000,'muscle'),
+	('Demon','demon',24000,'muscle'),
+	('Camaro','2018zl1',15000,'muscle'),
+	('Mustang GT','gt2017',19000,'muscle'),
+	('Camaro SS','camaross',55000,'muscle'),
 	('Dominator','dominator',35000,'muscle'),
 	('Dukes','dukes',28000,'muscle'),
 	('Gauntlet','gauntlet',30000,'muscle'),
