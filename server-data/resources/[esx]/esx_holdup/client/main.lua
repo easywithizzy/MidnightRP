@@ -106,7 +106,7 @@ Citizen.CreateThread(function()
 					if distance < 0.5 then
 						ESX.ShowHelpNotification(_U('press_to_rob', v.nameOfStore))
 
-						if IsControlJustReleased(0, Keys['E']) then
+						if IsControlJustReleased(0, 48) then
 							if IsPedArmed(PlayerPedId(), 4) then
 								TriggerServerEvent('esx_holdup:robberyStarted', k)
 							else

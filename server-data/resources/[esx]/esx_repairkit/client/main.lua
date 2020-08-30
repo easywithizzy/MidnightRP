@@ -84,7 +84,7 @@ AddEventHandler('esx_repairkit:onUse', function()
 				AddTextComponentString(_U('abort_hint'))
 				DisplayHelpTextFromStringLabel(0, 0, 1, -1)
 
-				if IsControlJustReleased(0, Keys["X"]) then
+				if IsControlJustReleased(0, 38) then
 					TerminateThread(ThreadID)
 					ESX.ShowNotification(_U('aborted_repair'))
 					CurrentAction = nil
