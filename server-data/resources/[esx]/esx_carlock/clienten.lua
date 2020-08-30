@@ -18,7 +18,7 @@ Citizen.CreateThread(function()
   end
   while true do
     Citizen.Wait(0)
-	if (IsControlJustPressed(1, 303)) then
+	if (IsControlJustPressed(1, 309)) then
 		local coords = GetEntityCoords(GetPlayerPed(-1))
 		local hasAlreadyLocked = false
 		cars = ESX.Game.GetVehiclesInArea(coords, 30)
