@@ -1,8 +1,5 @@
 USE `es_extended`;
 
-INSERT INTO `addon_account` (name, label, shared) VALUES
-	('society_police', 'Police', 1)
-;
 
 INSERT INTO `datastore` (name, label, shared) VALUES
 	('society_police', 'Police', 1)
