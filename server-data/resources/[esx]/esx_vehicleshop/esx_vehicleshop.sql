@@ -1,9 +1,5 @@
 USE `es_extended`;
 
-INSERT INTO `addon_account` (name, label, shared) VALUES
-	('society_cardealer','Concessionnaire',1)
-;
-
 INSERT INTO `addon_inventory` (name, label, shared) VALUES
 	('society_cardealer','Concesionnaire',1)
 ;
