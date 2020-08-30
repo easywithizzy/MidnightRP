@@ -101,7 +101,7 @@ AddEventHandler('esx_addons_gcphone:startCall', function (number, message, coord
 end)
 
 
-AddEventHandler('es:playerLoaded', function(source)
+AddEventHandler('esx:playerLoaded', function(source)
 
   local xPlayer = ESX.GetPlayerFromId(source)
 
